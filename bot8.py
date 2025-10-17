@@ -1,5 +1,6 @@
 import json
 import os
+TOKEN = os.getenv("7561194980:AAEO3iEMUuPGkKvVXok3d9PcrR8RrBiQME8")
 import logging
 import csv
 from datetime import datetime
@@ -21,8 +22,7 @@ from telegram.ext import (
 
 logging.basicConfig(level=logging.INFO)
 
-import os
-TOKEN = os.getenv("7561194980:AAEO3iEMUuPGkKvVXok3d9PcrR8RrBiQME8")
+TOKEN ="7561194980:AAEO3iEMUuPGkKvVXok3d9PcrR8RrBiQME8"
 
 ADMIN_ID = 6793697685
 
