@@ -21,7 +21,9 @@ from telegram.ext import (
 
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = "7561194980:AAHMxi1lQnxok9XR5wFsc5iiwW-lrL3PuSQ"
+import os
+TOKEN = os.getenv("7561194980:AAEO3iEMUuPGkKvVXok3d9PcrR8RrBiQME8")
+
 ADMIN_ID = 6793697685
 
 # states
